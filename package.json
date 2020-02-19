@@ -1,0 +1,21 @@
+{
+  "name": "api-code-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js",
+    "demo": "npx babel-node --presets @babel/preset-env demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MatthewCharlton",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "api-spec-converter": "^2.10.1",
+    "@openapitools/openapi-generator-cli": "^1.0.2-4.2.0"
+  }
+}
