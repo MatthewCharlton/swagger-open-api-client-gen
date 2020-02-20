@@ -18,7 +18,7 @@ Converter.convert({
 console.log("Generating client code");
 
 process.exec(
-  "npx openapi-generator generate -i Petstore-converted.yaml -g javascript -o api-services"
+  "npx openapi-generator generate -i Petstore-converted.yaml -g javascript -o generated-code/api-services"
 );
 
 console.log('++++ Swagger Client Code Gen Complete ++++ \n')

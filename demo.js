@@ -1,4 +1,4 @@
-const { PetApi } = require('./api-services/src/');
+const { PetApi } = require('./generated-code/api-services/src/');
 
 const petApi = new PetApi();
 
